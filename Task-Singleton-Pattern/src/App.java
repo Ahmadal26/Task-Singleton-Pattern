@@ -8,6 +8,7 @@ public class App {
 
         System.out.println("Brightness level: " + iPhoneSettings.getBrightness());
         System.out.println("WiFi status: " + iPhoneSettings.getWifiIsConnected());
-
+        // Testing the Singleton
+        System.out.println("Brightness level: " + iPhoneSettings2.getBrightness());
     }
 }
